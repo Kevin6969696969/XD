@@ -2,14 +2,14 @@ header {
     background-color:rgb(4, 128, 185);
     color:aliceblue;
 }
-@import url();
+@import url('');
 :root {
-      --cor-de-fundo: ;
-      --verde: ;
-      --branco: ;
-      --botao-ativo: ;
-      --botao-inativo: ;
-      --texto-fundo: ;
+      --cor-de-fundo:#1e1e1e ;
+      --verde: #6fff57;
+      --branco: #ffffff;
+      --botao-ativo: #3a375e;
+      --botao-inativo: rgba(58, 55, 94, 0.5);
+      --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 body {
