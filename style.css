@@ -5,9 +5,9 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wgnt@400;700&display=swap');
 :root {
       --cor-de-fundo:#1e1e1e ;
-      --verde: #6fff57;
+      --verde: 	#1E90FF;
       --branco: #ffffff;
-      --botao-ativo: #3a375e;
+      --botao-ativo: #9932CC;
       --botao-inativo: rgba(58, 55, 94, 0.5);
       --texto-fundo: rgba(58, 55, 94, 0.3);
 }
