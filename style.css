@@ -1,22 +1,20 @@
-header {
-    background-color:rgb(4, 128, 185);
-    color:aliceblue;
-}
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wgnt@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
 :root {
-      --cor-de-fundo:#1e1e1e ;
-      --verde: 	#1E90FF;
-      --branco: #ffffff;
-      --botao-ativo: #9932CC;
-      --botao-inativo: rgba(58, 55, 94, 0.5);
-      --texto-fundo: rgba(58, 55, 94, 0.3);
+    --cor-de-fundo: #1E1E1E;
+    --verde: #0881D5;
+    --branco: #FFFFFF;
+    --botao-ativo: #F50EE4;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 'Chakra Petch' , Sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
+
 
 .conteudo-principal {
     display: flex;
@@ -29,17 +27,18 @@ body {
 }
 
 .titulo-principal {
-       text-align: center;
-       width: 100%;
-       font-size: 32px
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
 }
 
 .titulo-principal span {
     color: var(--verde);
 }
 
+
 .botao {
-    font-family: "Crakra Petch", sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -68,11 +67,10 @@ body {
 }
 
 .abas-textos{
-    background-color: var(--textofundo);
+    background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
-
 .aba-conteudo.ativo{
     display:block;
 }
@@ -85,7 +83,6 @@ body {
     font-size: 28px;
     text-align: center;
 }
-
 .aba-conteudo-titulo-secundario{
     text-align: center;
     color: var(--verde);
@@ -106,12 +103,14 @@ body {
 .contador-digito-numero{
     font-size: 80px;
     margin: 0;
+
 }
 
 .contador-digito-texto{
     color: var(--verde);
     font-size: 20px;
     margin: 0;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -120,7 +119,7 @@ body {
     }
 
     .botao:first-child {
-border-radius: 40px 0 0 0;
+        border-radius: 40px 0 0 0;
     }
 
     .botao:last-child {
